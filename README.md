@@ -1,4 +1,4 @@
-# Flipkart Logistics SQL Analytics
+# Flipkart's Logistics Optimization Analytics
 
 ## Project Overview
 
