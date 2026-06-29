@@ -184,23 +184,33 @@ Generated operational KPIs including:
 
 ---
 
-# Repository Structure
+## Repository Structure
 
-```
-logistics-optimization-analysis
+```text
+logistics-optimization-analysis/
 │
-├── Data/
-│   ├── Orders.xlsx
-│   ├── Routes.xlsx
-│   ├── Warehouses.xlsx
-│   ├── DeliveryAgents.xlsx
-│   └── ShipmentTracking.xlsx
-│
-├── Solution/
-│   ├── Logistics_Optimization_Analysis.sql
+├── data/
+│   ├── Flipkart_DeliveryAgents.xlsx
+│   ├── Flipkart_Orders.xlsx
+│   ├── Flipkart_Routes.xlsx
+│   ├── Flipkart_ShipmentTracking.xlsx
+│   └── Flipkart_Warehouses.xlsx
 │
 ├── docs/
-│   └── |
+│   ├── Presentation_Report.pptx
+│   ├── Project_Objective.pdf
+│   └── problem_Statement.pdf
+│
+├── images/
+│   ├── Top3_worst_efficiency_routes.png
+│   ├── Top5_vs_bottom5_performing_agents.png
+│   ├── most_common_delay_reason.png
+│   ├── on-time_delivery_percentage.png
+│   ├── top10_delayed_routes.png
+│   └── total_vs_delayed_shipments.png
+│
+├── solution/
+│   └── Logistics_Optimization_Analysis.sql
 │
 └── README.md
 ```
